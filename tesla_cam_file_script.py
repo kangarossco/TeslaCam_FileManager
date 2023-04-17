@@ -100,7 +100,7 @@ currentTime = currentDateAndTime.strftime("%H-%M-%S")
 currentDay = currentDateAndTime.strftime("%d-%m-%Y")
 
 #logfiles to be kept with script location
-filepath = r"/volume1/Ross/Documents/Python/" + currentDay + ", " + currentTime + " log" + ".txt"   
+filepath = r"" + currentDay + ", " + currentTime + " log" + ".txt"   
 
 #how long did this script take to run?
 finishtime = datetime.now()
